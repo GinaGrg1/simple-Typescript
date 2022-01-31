@@ -6,6 +6,8 @@ export class Scoreboard {
 
     addResult(newResult: Result): void {  // type for newResult comes from Result interface
         this.results.push(newResult);
+        let allCapsName: string = _.upperCase(newResult.playerName);
+        console.log(`${allCapsName} : ${newResult.score}`);
     }
 
     updateScoreboard(): void {
