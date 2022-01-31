@@ -1,6 +1,6 @@
 /// <reference path="result.ts" />
 
-class Scoreboard {
+export class Scoreboard {
 
     private results: Result[] = [];
 
