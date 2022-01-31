@@ -1,0 +1,13 @@
+$ ng install typescript@4.2.3
+
+$ ng new angular-heroes
+
+Starts a new project will all necessary files : package.json, package-lock.json, tsconfig.json, src folder etc.
+
+$ npm install 
+
+Loads the node_modules folder.
+
+$ ng serve
+
+This will also install the node_module folder. Starts the server on localhost:4200
